@@ -1,15 +1,7 @@
-name: VitalCraft
+name: VitalMotd
 version: @version@
-main: com.tamrielnetwork.vitalcraft.VitalCraft
+main: com.tamrielnetwork.vitalmotd.VitalMotd
 api-version: 1.17
 authors: [ Tamriel Network ]
 website: https://tamriel.site
-description: Gives players the ability to open a crafting interface.
-commands:
-  vitalcraft:
-    description: "Main command"
-    usage: "/vitalcraft"
-permissions:
-  vitalcraft.craft:
-    description: "Permission to toggle crafting interface"
-    default: op
+description: Shows a message on join.

@@ -16,35 +16,25 @@
  * along with this program. If not, see https://github.com/TamrielNetwork/VitalMotd/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalcraft.utils.commands;
+package com.tamrielnetwork.vitalmotd.listeners;
 
-import com.tamrielnetwork.vitalcraft.utils.Chat;
-import org.bukkit.command.CommandSender;
+import com.google.common.collect.ImmutableMap;
+import com.tamrielnetwork.vitalmotd.utils.Chat;
+import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerJoinEvent;
 import org.jetbrains.annotations.NotNull;
 
-public class Cmd {
-	public static boolean isArgsLengthNotEqualTo(@NotNull CommandSender sender, @NotNull String[] args, int length) {
-		if (args.length != length) {
-			Chat.sendMessage(sender, "cmd");
-			return true;
-		}
-		return false;
+public class PlayerJoin implements Listener {
+
+	@EventHandler
+	public void onPlayerJoin(@NotNull PlayerJoinEvent event) {
+
+		Player player = event.getPlayer();
+
+		Chat.sendMessage(player, ImmutableMap.of("%player%", player.getName(), "%online%", String.valueOf(Bukkit.getOnlinePlayers().size())), "messages");
 	}
 
-	public static boolean isNotPermitted(@NotNull CommandSender sender, @NotNull String perm) {
-		if (!sender.hasPermission(perm)) {
-			Chat.sendMessage(sender, "no-perms");
-			return true;
-		}
-		return false;
-	}
-
-	public static boolean isInvalidSender(@NotNull CommandSender sender) {
-		if (!(sender instanceof Player)) {
-			Chat.sendMessage(sender, "player-only");
-			return true;
-		}
-		return false;
-	}
 }
