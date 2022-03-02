@@ -83,18 +83,12 @@ To get the plugin running on your server follow these simple steps.
 
 ### Commands and Permissions
 
-### Configuration - config.yml
-
-```
-```
-
-### Configuration - messages.yml
+### Configuration - motd.yml
 
 ```
 messages:
-  - "&7&m---&r&b●&7&m---&r &b&l&oWelcome &6&l%player% &7&m---&r&b●&7&m---&r"
-  - "&7● &fThere are &6%online% &fplayers online &7●"
-  - "&7● &b&lHave fun playing Towny! &r&7●"
+  - "&b&lWelcome &a&l%player%"
+  - "&7There are &a%online% &7players online"
 ```
 
 <!-- ROADMAP -->

@@ -25,29 +25,29 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import java.io.File;
 
-public class Messages {
+public class Motd {
 
 	private final VitalMotd main = JavaPlugin.getPlugin(VitalMotd.class);
-	private final File messagesFile;
-	private final FileConfiguration messagesConf;
+	private final File motdFile;
+	private final FileConfiguration motdConf;
 
-	public Messages() {
+	public Motd() {
 
-		messagesFile = new File(main.getDataFolder(), "messages.yml");
-		saveMessagesFile();
-		messagesConf = YamlConfiguration.loadConfiguration(messagesFile);
+		motdFile = new File(main.getDataFolder(), "motd.yml");
+		saveMotdFile();
+		motdConf = YamlConfiguration.loadConfiguration(motdFile);
 	}
 
-	private void saveMessagesFile() {
+	private void saveMotdFile() {
 
-		if (!messagesFile.exists()) {
-			main.saveResource("messages.yml", false);
+		if (!motdFile.exists()) {
+			main.saveResource("motd.yml", false);
 		}
 	}
 
-	public FileConfiguration getMessagesConf() {
+	public FileConfiguration getMotdConf() {
 
-		return messagesConf;
+		return motdConf;
 	}
 
 }

@@ -50,11 +50,11 @@ public class Chat {
 	private static List<String> getMessages(@NotNull String message) {
 
 		List<String> messages;
-		if (main.getMessages().getMessagesConf().isList(message)) {
-			messages = Objects.requireNonNull(main.getMessages().getMessagesConf().getStringList(message));
+		if (main.getMotd().getMotdConf().isList(message)) {
+			messages = Objects.requireNonNull(main.getMotd().getMotdConf().getStringList(message));
 		} else {
 			messages = new ArrayList<>();
-			messages.add(main.getMessages().getMessagesConf().getString(message));
+			messages.add(main.getMotd().getMotdConf().getString(message));
 		}
 		return messages;
 	}

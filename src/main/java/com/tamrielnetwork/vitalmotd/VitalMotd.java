@@ -18,21 +18,21 @@
 
 package com.tamrielnetwork.vitalmotd;
 
-import com.tamrielnetwork.vitalmotd.files.Messages;
+import com.tamrielnetwork.vitalmotd.files.Motd;
 import com.tamrielnetwork.vitalmotd.listeners.PlayerJoin;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class VitalMotd extends JavaPlugin {
 
-	private Messages messages;
+	private Motd motd;
 
 	@Override
 	public void onEnable() {
 
 		registerListeners();
 
-		messages = new Messages();
+		motd = new Motd();
 
 		Bukkit.getLogger().info("VitalMotd v" + this.getDescription().getVersion() + " enabled");
 		Bukkit.getLogger().info("Copyright (C) 2022 Leopold Meinel");
@@ -47,9 +47,9 @@ public final class VitalMotd extends JavaPlugin {
 		Bukkit.getLogger().info("VitalMotd v" + this.getDescription().getVersion() + " disabled");
 	}
 
-	public Messages getMessages() {
+	public Motd getMotd() {
 
-		return messages;
+		return motd;
 	}
 
 	private void registerListeners() {
