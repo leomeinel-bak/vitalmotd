@@ -1,4 +1,3 @@
 messages:
-  - "&7&m---&r&b&k+&r&7&m---&r &b&l&oWelcome &6&l%player% &7&m---&r&b&k+&r&7&m---&r"
-  - "&7&k+&r &fThere are &6%online% &fplayers online &7&k+&r"
-  - "&7&k+&r &b&lHave fun playing Towny! &r&7&k+&r"
+  - "&b&lWelcome &a&l%player%"
+  - "&7There are &a%online% &7players online"
