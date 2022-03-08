@@ -18,7 +18,6 @@
 
 package com.tamrielnetwork.vitalmotd.listeners;
 
-import com.google.common.collect.ImmutableMap;
 import com.tamrielnetwork.vitalmotd.utils.Chat;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
@@ -34,7 +33,7 @@ public class PlayerJoin implements Listener {
 
 		Player player = event.getPlayer();
 
-		Chat.sendMessage(player, ImmutableMap.of("%player%", player.getName(), "%online%", String.valueOf(Bukkit.getOnlinePlayers().size())), "messages");
+		Chat.sendMessage(player, java.util.Map.of("%player%", player.getName(), "%online%", String.valueOf(Bukkit.getOnlinePlayers().size())), "messages");
 	}
 
 }
