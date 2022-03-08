@@ -26,6 +26,8 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.jetbrains.annotations.NotNull;
 
+import java.util.Map;
+
 public class PlayerJoin implements Listener {
 
 	@EventHandler
@@ -33,7 +35,7 @@ public class PlayerJoin implements Listener {
 
 		Player player = event.getPlayer();
 
-		Chat.sendMessage(player, java.util.Map.of("%player%", player.getName(), "%online%", String.valueOf(Bukkit.getOnlinePlayers().size())), "messages");
+		Chat.sendMessage(player, Map.of("%player%", player.getName(), "%online%", String.valueOf(Bukkit.getOnlinePlayers().size())), "messages");
 	}
 
 }
