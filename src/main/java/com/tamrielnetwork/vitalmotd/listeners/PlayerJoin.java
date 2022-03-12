@@ -34,7 +34,8 @@ public class PlayerJoin
 	@EventHandler
 	public void onPlayerJoin(@NotNull PlayerJoinEvent event) {
 		Player player = event.getPlayer();
-		Chat.sendMessage(player, Map.of("%player%", player.getName(), "%online%", String.valueOf(Bukkit.getOnlinePlayers()
-		                                                                                               .size())), "messages");
+		Chat.sendMessage(player, Map.of("%player%", player.getName(), "%online%", String.valueOf(
+				Bukkit.getOnlinePlayers()
+				      .size())), "messages");
 	}
 }
