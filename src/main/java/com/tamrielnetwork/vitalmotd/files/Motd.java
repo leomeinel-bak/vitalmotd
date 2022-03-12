@@ -32,22 +32,18 @@ public class Motd {
 	private final FileConfiguration motdConf;
 
 	public Motd() {
-
 		motdFile = new File(main.getDataFolder(), "motd.yml");
 		saveMotdFile();
 		motdConf = YamlConfiguration.loadConfiguration(motdFile);
 	}
 
 	private void saveMotdFile() {
-
 		if (!motdFile.exists()) {
 			main.saveResource("motd.yml", false);
 		}
 	}
 
 	public FileConfiguration getMotdConf() {
-
 		return motdConf;
 	}
-
 }
