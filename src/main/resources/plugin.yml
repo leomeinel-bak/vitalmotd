@@ -2,6 +2,5 @@ name: VitalMotd
 version: @version@
 main: com.tamrielnetwork.vitalmotd.VitalMotd
 api-version: 1.17
-authors: [ Tamriel Network ]
-website: https://tamriel.site
+authors: [ Leopold Meinel ]
 description: Shows a message on join.
