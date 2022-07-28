@@ -10,7 +10,7 @@
 <!--suppress ALL -->
 <br />
 <p align="center">
-  <a href="https://github.com/TamrielNetwork/VitalMotd">
+  <a href="https://github.com/LeoMeinel/VitalMotd">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -19,14 +19,14 @@
   <p align="center">
     Send login messages on Spigot and Paper
     <br />
-    <a href="https://github.com/TamrielNetwork/VitalMotd"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/LeoMeinel/VitalMotd"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/TamrielNetwork/VitalMotd">View Demo</a>
+    <a href="https://github.com/LeoMeinel/VitalMotd">View Demo</a>
     ·
-    <a href="https://github.com/TamrielNetwork/VitalMotd/issues">Report Bug</a>
+    <a href="https://github.com/LeoMeinel/VitalMotd/issues">Report Bug</a>
     ·
-    <a href="https://github.com/TamrielNetwork/VitalMotd/issues">Request Feature</a>
+    <a href="https://github.com/LeoMeinel/VitalMotd/issues">Request Feature</a>
   </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -92,7 +92,7 @@ messages:
 
 ## Roadmap
 
-See the [open issues](https://github.com/TamrielNetwork/VitalMotd/issues) for a list of proposed features (and known
+See the [open issues](https://github.com/LeoMeinel/VitalMotd/issues) for a list of proposed features (and known
 issues).
 
 <!-- CONTRIBUTING -->
@@ -122,7 +122,7 @@ Leopold Meinel - [@TamrielN](https://twitter.com/TamrielN) - Twitter
 
 Leopold Meinel - [contact@tamriel.me](mailto:contact@tamriel.me) - eMail
 
-Project Link - [VitalMotd](https://github.com/TamrielNetwork/VitalMotd) - GitHub
+Project Link - [VitalMotd](https://github.com/LeoMeinel/VitalMotd) - GitHub
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -132,26 +132,26 @@ Project Link - [VitalMotd](https://github.com/TamrielNetwork/VitalMotd) - GitHub
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors-anon/TamrielNetwork/VitalMotd?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/VitalMotd?style=for-the-badge
 
-[contributors-url]: https://github.com/TamrielNetwork/VitalMotd/graphs/contributors
+[contributors-url]: https://github.com/LeoMeinel/VitalMotd/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/TamrielNetwork/VitalMotd?label=Forks&style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/LeoMeinel/VitalMotd?label=Forks&style=for-the-badge
 
-[forks-url]: https://github.com/TamrielNetwork/VitalMotd/network/members
+[forks-url]: https://github.com/LeoMeinel/VitalMotd/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/TamrielNetwork/VitalMotd?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/LeoMeinel/VitalMotd?style=for-the-badge
 
-[stars-url]: https://github.com/TamrielNetwork/VitalMotd/stargazers
+[stars-url]: https://github.com/LeoMeinel/VitalMotd/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/TamrielNetwork/VitalMotd?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/LeoMeinel/VitalMotd?style=for-the-badge
 
-[issues-url]: https://github.com/TamrielNetwork/VitalMotd/issues
+[issues-url]: https://github.com/LeoMeinel/VitalMotd/issues
 
-[license-shield]: https://img.shields.io/github/license/TamrielNetwork/VitalMotd?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/LeoMeinel/VitalMotd?style=for-the-badge
 
-[license-url]: https://github.com/TamrielNetwork/VitalMotd/blob/main/LICENSE
+[license-url]: https://github.com/LeoMeinel/VitalMotd/blob/main/LICENSE
 
-[quality-shield]: https://img.shields.io/codefactor/grade/github/TamrielNetwork/VitalMotd?style=for-the-badge
+[quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/VitalMotd?style=for-the-badge
 
-[quality-url]: https://www.codefactor.io/repository/github/TamrielNetwork/VitalMotd
+[quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/VitalMotd
