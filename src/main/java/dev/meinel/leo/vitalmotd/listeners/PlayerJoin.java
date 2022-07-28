@@ -16,9 +16,9 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalMotd/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalmotd.listeners;
+package dev.meinel.leo.vitalmotd.listeners;
 
-import com.tamrielnetwork.vitalmotd.utils.Chat;
+import dev.meinel.leo.vitalmotd.utils.Chat;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;

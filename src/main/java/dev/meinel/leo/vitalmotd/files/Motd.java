@@ -16,9 +16,9 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalMotd/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalmotd.files;
+package dev.meinel.leo.vitalmotd.files;
 
-import com.tamrielnetwork.vitalmotd.VitalMotd;
+import dev.meinel.leo.vitalmotd.VitalMotd;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;

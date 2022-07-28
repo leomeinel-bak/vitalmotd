@@ -1,6 +1,6 @@
 name: VitalMotd
 version: @version@
-main: com.tamrielnetwork.vitalmotd.VitalMotd
+main: dev.meinel.leo.vitalmotd.VitalMotd
 api-version: 1.17
 authors: [ Leopold Meinel ]
 description: Shows a message on join.

@@ -16,10 +16,10 @@
  * along with this program. If not, see https://github.com/LeoMeinel/VitalMotd/blob/main/LICENSE
  */
 
-package com.tamrielnetwork.vitalmotd;
+package dev.meinel.leo.vitalmotd;
 
-import com.tamrielnetwork.vitalmotd.files.Motd;
-import com.tamrielnetwork.vitalmotd.listeners.PlayerJoin;
+import dev.meinel.leo.vitalmotd.files.Motd;
+import dev.meinel.leo.vitalmotd.listeners.PlayerJoin;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
