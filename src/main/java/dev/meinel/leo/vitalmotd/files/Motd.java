@@ -19,23 +19,23 @@ import java.io.File;
 
 public class Motd {
 
-	private final VitalMotd main = JavaPlugin.getPlugin(VitalMotd.class);
-	private final File motdFile;
-	private final FileConfiguration motdConf;
+    private final VitalMotd main = JavaPlugin.getPlugin(VitalMotd.class);
+    private final File motdFile;
+    private final FileConfiguration motdConf;
 
-	public Motd() {
-		motdFile = new File(main.getDataFolder(), "motd.yml");
-		saveMotdFile();
-		motdConf = YamlConfiguration.loadConfiguration(motdFile);
-	}
+    public Motd() {
+        motdFile = new File(main.getDataFolder(), "motd.yml");
+        saveMotdFile();
+        motdConf = YamlConfiguration.loadConfiguration(motdFile);
+    }
 
-	private void saveMotdFile() {
-		if (!motdFile.exists()) {
-			main.saveResource("motd.yml", false);
-		}
-	}
+    private void saveMotdFile() {
+        if (!motdFile.exists()) {
+            main.saveResource("motd.yml", false);
+        }
+    }
 
-	public FileConfiguration getMotdConf() {
-		return motdConf;
-	}
+    public FileConfiguration getMotdConf() {
+        return motdConf;
+    }
 }
