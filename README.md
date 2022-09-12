@@ -1,4 +1,5 @@
 <!-- PROJECT SHIELDS -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -67,12 +68,12 @@ This plugin is perfect for any server wanting to welcome their players on join.
 
 ### Features
 
-* Send message of the day on join
+- Send message of the day on join
 
 ### Built With
 
-* [Gradle 7](https://docs.gradle.org/7.4/release-notes.html)
-* [OpenJDK 17](https://openjdk.java.net/projects/jdk/17/)
+- [Gradle 7](https://docs.gradle.org/7.4/release-notes.html)
+- [OpenJDK 17](https://openjdk.java.net/projects/jdk/17/)
 
 <!-- GETTING STARTED -->
 
@@ -126,30 +127,19 @@ Project Link - [VitalMotd](https://github.com/LeoMeinel/VitalMotd) - GitHub
 
 ### Acknowledgements
 
-* [README.md - othneildrew](https://github.com/othneildrew/Best-README-Template)
+- [README.md - othneildrew](https://github.com/othneildrew/Best-README-Template)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
 [contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/VitalMotd?style=for-the-badge
-
 [contributors-url]: https://github.com/LeoMeinel/VitalMotd/graphs/contributors
-
 [forks-shield]: https://img.shields.io/github/forks/LeoMeinel/VitalMotd?label=Forks&style=for-the-badge
-
 [forks-url]: https://github.com/LeoMeinel/VitalMotd/network/members
-
 [stars-shield]: https://img.shields.io/github/stars/LeoMeinel/VitalMotd?style=for-the-badge
-
 [stars-url]: https://github.com/LeoMeinel/VitalMotd/stargazers
-
 [issues-shield]: https://img.shields.io/github/issues/LeoMeinel/VitalMotd?style=for-the-badge
-
 [issues-url]: https://github.com/LeoMeinel/VitalMotd/issues
-
 [license-shield]: https://img.shields.io/github/license/LeoMeinel/VitalMotd?style=for-the-badge
-
 [license-url]: https://github.com/LeoMeinel/VitalMotd/blob/main/LICENSE
-
 [quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/VitalMotd?style=for-the-badge
-
 [quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/VitalMotd
