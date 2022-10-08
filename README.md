@@ -11,7 +11,7 @@
 <!--suppress ALL -->
 <br />
 <p align="center">
-  <a href="https://github.com/LeoMeinel/VitalMotd">
+  <a href="https://github.com/LeoMeinel/vitalmotd">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -20,14 +20,14 @@
   <p align="center">
     Send login messages on Spigot and Paper
     <br />
-    <a href="https://github.com/LeoMeinel/VitalMotd"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/LeoMeinel/vitalmotd"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/LeoMeinel/VitalMotd">View Demo</a>
+    <a href="https://github.com/LeoMeinel/vitalmotd">View Demo</a>
     ·
-    <a href="https://github.com/LeoMeinel/VitalMotd/issues">Report Bug</a>
+    <a href="https://github.com/LeoMeinel/vitalmotd/issues">Report Bug</a>
     ·
-    <a href="https://github.com/LeoMeinel/VitalMotd/issues">Request Feature</a>
+    <a href="https://github.com/LeoMeinel/vitalmotd/issues">Request Feature</a>
   </p>
 
 <!-- ABOUT THE PROJECT -->
@@ -67,7 +67,7 @@ messages:
 
 ## Roadmap
 
-See the [open issues](https://github.com/LeoMeinel/VitalMotd/issues) for a list of proposed features (and known
+See the [open issues](https://github.com/LeoMeinel/vitalmotd/issues) for a list of proposed features (and known
 issues).
 
 <!-- CONTRIBUTING -->
@@ -95,7 +95,7 @@ Distributed under the GNU General Public License v3.0. See `LICENSE` for more in
 
 Leopold Meinel - [leo@meinel.dev](mailto:leo@meinel.dev) - eMail
 
-Project Link - [VitalMotd](https://github.com/LeoMeinel/VitalMotd) - GitHub
+Project Link - [VitalMotd](https://github.com/LeoMeinel/vitalmotd) - GitHub
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -105,15 +105,15 @@ Project Link - [VitalMotd](https://github.com/LeoMeinel/VitalMotd) - GitHub
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/VitalMotd?style=for-the-badge
-[contributors-url]: https://github.com/LeoMeinel/VitalMotd/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/LeoMeinel/VitalMotd?label=Forks&style=for-the-badge
-[forks-url]: https://github.com/LeoMeinel/VitalMotd/network/members
-[stars-shield]: https://img.shields.io/github/stars/LeoMeinel/VitalMotd?style=for-the-badge
-[stars-url]: https://github.com/LeoMeinel/VitalMotd/stargazers
-[issues-shield]: https://img.shields.io/github/issues/LeoMeinel/VitalMotd?style=for-the-badge
-[issues-url]: https://github.com/LeoMeinel/VitalMotd/issues
-[license-shield]: https://img.shields.io/github/license/LeoMeinel/VitalMotd?style=for-the-badge
-[license-url]: https://github.com/LeoMeinel/VitalMotd/blob/main/LICENSE
-[quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/VitalMotd?style=for-the-badge
-[quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/VitalMotd
+[contributors-shield]: https://img.shields.io/github/contributors-anon/LeoMeinel/vitalmotd?style=for-the-badge
+[contributors-url]: https://github.com/LeoMeinel/vitalmotd/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/LeoMeinel/vitalmotd?label=Forks&style=for-the-badge
+[forks-url]: https://github.com/LeoMeinel/vitalmotd/network/members
+[stars-shield]: https://img.shields.io/github/stars/LeoMeinel/vitalmotd?style=for-the-badge
+[stars-url]: https://github.com/LeoMeinel/vitalmotd/stargazers
+[issues-shield]: https://img.shields.io/github/issues/LeoMeinel/vitalmotd?style=for-the-badge
+[issues-url]: https://github.com/LeoMeinel/vitalmotd/issues
+[license-shield]: https://img.shields.io/github/license/LeoMeinel/vitalmotd?style=for-the-badge
+[license-url]: https://github.com/LeoMeinel/vitalmotd/blob/main/LICENSE
+[quality-shield]: https://img.shields.io/codefactor/grade/github/LeoMeinel/vitalmotd?style=for-the-badge
+[quality-url]: https://www.codefactor.io/repository/github/LeoMeinel/vitalmotd
