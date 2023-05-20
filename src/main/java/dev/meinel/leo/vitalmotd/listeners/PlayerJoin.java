@@ -2,7 +2,7 @@
  * File: PlayerJoin.java
  * Author: Leopold Meinel (leo@meinel.dev)
  * -----
- * Copyright (c) 2022 Leopold Meinel & contributors
+ * Copyright (c) 2023 Leopold Meinel & contributors
  * SPDX ID: GPL-3.0-or-later
  * URL: https://www.gnu.org/licenses/gpl-3.0-standalone.html
  * -----
@@ -20,15 +20,12 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.Map;
 
-public class PlayerJoin
-        implements Listener {
+public class PlayerJoin implements Listener {
 
     @EventHandler
     public void onPlayerJoin(@NotNull PlayerJoinEvent event) {
         Player player = event.getPlayer();
-        Chat.sendMessage(player, Map.of("%player%", player.getName(), "%online%", String.valueOf(
-                Bukkit.getOnlinePlayers()
-                        .size())),
-                "messages");
+        Chat.sendMessage(player, Map.of("%player%", player.getName(), "%online%",
+                String.valueOf(Bukkit.getOnlinePlayers().size())), "messages");
     }
 }
